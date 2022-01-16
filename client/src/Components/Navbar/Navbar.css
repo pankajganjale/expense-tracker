@@ -1,0 +1,68 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px -2px black;
+}
+
+.navbar-container:hover {
+    box-shadow: 0 0px 20px -2px black;
+} 
+
+.navbar-container > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-container > div:nth-child(1) > div:nth-child(2) {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    border: 1px solid white;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 500px) {
+    .navbar-container > div:nth-child(1) > div:nth-child(2) {
+        display: none;
+    }
+} 
+
+/* @media only screen and (min-width: 500px) {
+  
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    
+} 
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    
+} */
+
+/* @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+   
+}  */
+
+/* @media only screen and (min-width: 1200px) {} */
+
+
