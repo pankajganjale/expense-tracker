@@ -1,0 +1,98 @@
+.signup-container {
+    width: 30%;
+    margin: 150px auto;
+    padding: 40px 20px;
+    box-shadow: 0 0px 10px -2px black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.signup-container > img {
+    width: 100px;
+    height: 100px;
+}
+
+.signup-container:hover {
+    box-shadow: 0 0px 20px -2px black;
+}
+
+.signup-container > form > div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.signup-container > form > div:nth-child(1) > input, .signup-container > form > div:nth-child(2) > input, .signup-container > form > div:nth-child(3) > input, .signup-container > form > div:nth-child(4) > input, .signup-container > form > div:nth-child(5) > input {
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+.signup-container > form > div:nth-child(1) > input, .signup-container > form > div:nth-child(2) > input, .signup-container > form > div:nth-child(3) > input, .signup-container > form > div:nth-child(4) > input, .signup-container > form > div:nth-child(5) > input {
+    outline: none;
+}
+
+.signup-container > form > div:nth-child(6) > input {
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 500px) {
+    .signup-container {
+        width: 80%;
+        margin-bottom: 150px;
+    }
+
+    .signup-container > form > div:nth-child(1) > input, .signup-container > form > div:nth-child(2) > input, .signup-container > form > div:nth-child(3) > input, .signup-container > form > div:nth-child(4) > input, .signup-container > form > div:nth-child(5) > input, .signup-container > form > div:nth-child(6) > input {
+        width: 200px;
+    }
+} 
+
+@media only screen and (min-width: 500px) {
+    .signup-container {
+        width: 60%;
+        margin-top: 175px;
+        margin-bottom: 175px;
+    }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .signup-container {
+        width: 60%;
+        margin-top: 275px;
+        margin-bottom: 275px;
+    }
+} 
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    .signup-container {
+        width: 40%;
+        margin-top: 275px;
+        margin-bottom: 400px;
+    }
+}
+
+/* @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+   
+}  */
+
+@media only screen and (min-width: 1200px) {
+    .signup-container {
+        width: 30%;
+    }
+}
